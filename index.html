@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dairy Plant Demo</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div id="scene">
+      <div id="stage">
+        <img id="imageView" src="/images/home.png" />
+        <video id="videoView" muted playsinline preload="auto"></video>
+        <div id="poiContainer">
+          <button class="poi" data-zone="cowfarm">Cow Farm</button>
+          <button class="poi" data-zone="milk">Milk Reception</button>
+          <button class="poi" data-zone="rmst">RMST</button>
+          <button class="poi" data-zone="pmst">PMST</button>
+          <button class="poi" data-zone="pasteurisation">Pasteurisation</button>
+          <button class="poi" data-zone="cip">CIP</button>
+          <button class="poi" data-zone="office">Office</button>
+          <button class="poi" data-zone="controlroom">Control Room</button>
+          <button class="poi" data-zone="lab">Lab</button>
+          <button class="poi" data-zone="packaging">Packaging</button>
+          <button class="poi" data-zone="butter">Butter Tank</button>
+          <button class="poi" data-zone="yogurt">Yogurt Tank</button>
+          <button class="poi" data-zone="warehouse">Warehouse</button>
+          <button class="poi" data-zone="shipping">Shipping Trucks</button>
+          <button class="poi" data-zone="www">Water/Waste Water Treatment</button>
+          <button class="poi" data-zone="ev">EV Charging</button>
+          <button class="poi" data-zone="grid">Electric Grid</button>
+          <button class="poi" data-zone="chiller">Chiller</button>
+        </div>
+        <button id="backBtn">Back</button>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
